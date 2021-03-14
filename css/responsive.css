@@ -1,0 +1,301 @@
+/*
+Theme Name: Digit - Responsive WHMCS Client Area Template
+Theme URI: http://www.whmcsdes.com
+Description: awesome and clean WHMCS Template. is designed for Hosting Companies,  Contains +25 Redesigned files which have been well organized built using 1170 grid system.
+Version: 8.1.0
+Author: WHMCSdes
+Author URI: http://whmcsdes.com
+Tags: powerful, host
+*/
+
+/* Smart Phones */
+
+@media only screen and (min-width: 160px) and (max-width: 767px) {
+  /* Client Area */
+  .wdes-wrapper {
+    display: block;
+  }
+
+  .wdes-sidebar,
+  .whm-sidebar {
+    width: 100%;
+  }
+
+  img.domain-bg {
+    width: 100%;
+    height: initial;
+  }
+
+  ul.top-nav {
+    width: 100%;
+  }
+
+  .home-kb-search i {
+    margin-left: 0;
+  }
+
+  form.header-search-frame .form-control {
+    padding: 0 0 0 27px;
+  }
+
+  li.wdes-language-item {
+    float: right;
+    margin-top: 8px;
+  }
+
+  .navbar-header .navbar-toggle {
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  section#header .choose-language {
+    padding: 0;
+    margin-top: 5px;
+  }
+
+  #frmDomainHomepage .input-group {
+    width: 100%;
+  }
+
+  .home-shortcuts li {
+    width: 100%;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .logo-mob {
+    display: inline;
+    float: left;
+    margin: 15px 20px 13px;
+  }
+
+  .logo-mob img {
+    height: 27px;
+  }
+
+  div.header-lined .wdes-desc-alternate {
+    margin: 32px 0 0 0;
+    white-space: pre-wrap;
+  }
+}
+
+/* Tablet */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Client Area */
+  .wdes-wrapper {
+    display: block;
+  }
+
+  .wdes-sidebar,
+  .whm-sidebar {
+    width: 100%;
+  }
+
+  ul.top-nav {
+    width: 100%;
+  }
+
+  .home-kb-search i {
+    margin-left: 0;
+  }
+
+  form.header-search-frame .form-control {
+    padding: 0 0 0 27px;
+  }
+
+  li.wdes-language-item {
+    float: right;
+    margin-top: 8px;
+  }
+
+  .navbar-header .navbar-toggle {
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  section#header .choose-language {
+    padding: 0;
+    margin-top: 5px;
+  }
+
+  section#home-banner .form-control {
+    width: 60%;
+  }
+
+  section#home-banner .input-group-btn {
+    width: 40%;
+  }
+
+  section#home-banner .input-group {
+    width: 100%;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .logo-mob {
+    display: inline;
+    float: left;
+    margin: 15px 20px 13px;
+  }
+
+  .logo-mob img {
+    height: 27px;
+  }
+
+  div.header-lined .wdes-desc-alternate {
+    margin: 32px 0 0 0;
+    white-space: pre-wrap;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .whm-sidebar {
+    width: 210px;
+  }
+
+  div.header-lined .wdes-desc-alternate {
+    margin: 32px 0 0 0;
+    white-space: pre-wrap;
+  }
+}
+
+@media only screen and (min-width: 160px) and (max-width: 1200px) {
+  #home-banner h2 {
+    width: 100%;
+  }
+
+  #active-link {
+    margin: 23px 20px 0 0;
+  }
+
+  p {
+    line-height: 30px;
+  }
+
+  .wdes-knb-block {
+    text-align: center;
+  }
+
+  .wdes-submit {
+    padding: 8px 15px;
+  }
+
+  a.wdes-2nd-btn,
+  .wdes-2nd-btn {
+    padding: 8px 8px;
+  }
+
+  .panel-actions > .list-group .list-group-item {
+    display: block;
+    border: 1px solid #2f3247 !important;
+  }
+
+  div.header-lined h1 {
+    float: left;
+  }
+
+  .dataTables_wrapper {
+    background: #2f3247;
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #38394d;
+    min-height: 0.01%;
+    overflow-x: auto;
+  }
+
+  div.dataTables_wrapper div.dataTables_filter label {
+    font-weight: 400;
+    white-space: nowrap;
+    text-align: left;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 0;
+  }
+
+  .main-content {
+    min-height: 100px;
+  }
+
+  .wdes-clientarea-panel-block .panel-title {
+    line-height: 28px;
+  }
+
+  .whm-sidebar .panel-default > .panel-heading {
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  .whm-sidebar .panel {
+    margin-bottom: 20px;
+    border: 0;
+    border-radius: 4px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  div.header-lined p {
+    margin-top: 8px !important;
+  }
+
+  .announcement-single a {
+    display: block;
+    margin-top: 30px;
+    line-height: 27px;
+  }
+
+  div.announcement-single blockquote {
+    margin-top: 20px;
+  }
+
+  .logincontainer.with-social .login-form {
+    border: 0;
+  }
+
+  .providerPreLinking {
+    width: 100%;
+  }
+
+  section#home-banner .btn {
+    width: 50%;
+    margin: 0;
+  }
+
+  .tiles .tile {
+    width: 100% !important;
+    margin-bottom: 20px;
+    margin-right: 0 !important;
+  }
+
+  form.header-search-frame {
+    border-right: 0;
+  }
+
+  section#home-banner h2 {
+    font-size: 18px;
+  }
+
+  section#home-banner .btn {
+    padding: 10px 23px;
+  }
+
+  #default-captcha-domainchecker #inputCaptcha {
+    width: 76px !important;
+    height: 25px;
+    border-radius: 2px;
+    top: 3px;
+    position: relative;
+    left: 5px;
+  }
+
+  section#main-body {
+    padding: 30px 0;
+  }
+}

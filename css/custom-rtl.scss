@@ -1,0 +1,412 @@
+/*
+Theme Name: Digit - Responsive WHMCS Client Area Template [RTL Version]
+Theme URI: http://www.whmcsdes.com
+Description: awesome and clean WHMCS Template. is designed for Hosting Companies,  Contains +25 Redesigned files which have been well organized built using 1170 grid system.
+Version: 8.1.0
+Author: WHMCSdes
+Author URI: http://whmcsdes.com
+Tags: powerful, host
+*/
+
+// Fonts
+$ar-font: 'Cairo',
+sans-serif;
+
+// SideBar
+.wdes-sidebar {
+  .wdes-user-area-nav {
+    li {
+      a {
+        font-family: $ar-font;
+      }
+    }
+  }
+}
+
+.wdes-custom-nav {
+  li {
+    a {
+      font-family: $ar-font, "Font Awesome 5 Pro";
+
+      .fa-angle-down {
+        float: left;
+      }
+    }
+  }
+}
+
+a.wdes-livechat {
+  font-family: $ar-font;
+}
+
+.tooltip {
+  font-family: $ar-font;
+}
+
+ul.top-nav {
+  float: left;
+}
+
+form.header-search-frame {
+  border-left: 1px solid #212433;
+  border-right: 0;
+  padding-left: 5px;
+}
+
+body,
+button,
+input,
+select,
+textarea,
+.form-control {
+  font-family: $ar-font;
+}
+
+form.header-search-frame {
+  .home-kb-search {
+    margin-left: 9px;
+    margin-right: 0;
+    min-width: 283px;
+
+    i {
+      float: right;
+      margin-right: 20px;
+      margin-left: 0;
+    }
+  }
+}
+
+form.header-search-frame {
+  .form-control {
+    padding: 0 41px 0 0;
+  }
+}
+
+#home-banner h2,
+.domainchecker-homepage-captcha p {
+  font-family: $ar-font;
+}
+
+.captchaimage {
+  text-align: left;
+}
+
+div.announcement-single .label {
+  margin-left: 10px;
+  margin-right: 0;
+  float: right;
+}
+
+.announcement-single a,
+.announcement-single p {
+  font-family: $ar-font;
+}
+
+section#footer .back-to-top {
+  float: left;
+}
+
+section#footer {
+  font-family: $ar-font;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div.header-lined small {
+  font-family: $ar-font;
+}
+
+div.header-lined small:before {
+  content: '>';
+  margin-left: 5px;
+  padding-left: 5px;
+}
+
+.logincontainer.with-social .login-form {
+  border-left: 1px solid #2f3247;
+  border-right: 0;
+}
+
+@media (min-width: 768px) {
+  .logincontainer.with-social .login-form {
+    padding-left: 29px;
+    padding-right: 0;
+    border-left: 1px solid #2f3247;
+    border-right: 0;
+  }
+}
+
+.wdes-submit,
+a.wdes-2nd-btn,
+.wdes-2nd-btn,
+.custom-desc {
+  font-family: $ar-font;
+}
+
+.wdes-input-form {
+  padding: 10px;
+  font-family: $ar-font;
+}
+
+.wdes-notification-alert {
+  right: initial;
+  left: -23px;
+  transform: rotate(15deg);
+}
+
+.menu-icon-new {
+  &:before {
+    margin-left: 7px;
+  }
+}
+
+.pull-right {
+  float: left !important;
+}
+
+.pull-left {
+  float: right !important;
+}
+
+.whm-sidebar .panel-body {
+  font-family: $ar-font;
+}
+
+.whm-sidebar .panel-sidebar>.panel-heading .panel-title {
+  font-family: $ar-font;
+}
+
+div.header-lined .breadcrumb {
+  float: none;
+  padding-right: 0;
+  padding-left: initial;
+  margin-left: 20px !important;
+}
+
+ol.breadcrumb::before {
+  margin-left: 6px;
+  margin-right: initial;
+}
+
+#active-link {
+  margin: 0 0 0 20px;
+}
+
+#active-link:before {
+  right: initial;
+  left: -30px;
+  border-right: 20px solid #292C3E;
+  border-left: initial;
+}
+
+#active-link:after {
+  left: initial;
+  right: 0;
+  border-right: 20px solid #3B3D50;
+  border-left: initial;
+}
+
+.tiles .tile .icon {
+  left: 10px;
+  right: initial;
+}
+
+.wdes-clientarea-panel-block .panel-title,
+.client-home-panels .panel>.panel-body,
+.wdes-clientarea-panel-block .panel-title,
+.wdes-inner-block h4,
+.wdes-inner-block p {
+  font-family: $ar-font;
+}
+
+.wdes-inner-block h4,
+.wdes-inner-block p {
+  text-align: right;
+}
+
+div.header-lined h1 {
+  float: left;
+  font-family: $ar-font;
+
+  span,
+  small {
+    font-family: inherit !important;
+  }
+}
+
+.product-desc {
+  float: right;
+}
+
+.product footer {
+  float: left;
+
+  .btn-success {
+    float: left;
+  }
+}
+
+#order-digit_of textarea.field {
+  text-align: right;
+}
+
+.gravatar-ticket-img {
+  float: right;
+}
+
+.ticket-reply .date {
+  float: left;
+}
+
+.ticket-reply .rating,
+.ticket-reply .rating-done {
+  float: left;
+}
+
+.announcement-single p {
+  padding-right: 10px;
+}
+
+.inner-announce-text,
+.block-knb h2,
+.affiliate-stat {
+  font-family: $ar-font;
+}
+
+.md-editor .md-controls {
+  float: left;
+}
+
+.promo label {
+  top: 37px;
+  right: 11px;
+  left: initial;
+}
+
+.wdes-sidebar .wdes-user-area-nav li ul li a {
+  text-align: right;
+}
+
+.wdes-sidebar .wdes-user-area-nav li ul li {
+  padding-right: 9px;
+  padding-left: initial;
+}
+
+.custom-block-input input[type='text'],
+.custom-block-input input[type='email'],
+.custom-block-input input[type='password'] {
+  padding: 10px 40px 10px 10px;
+}
+
+// WHMCS 8.0.1 Update
+.wdes-sidebar .wdes-user-area-nav .panel ul li a {
+  text-align: right;
+}
+
+#main-menu .wdes-custom-nav>.panel>a {
+  font-family: $ar-font, "Montserrat", sans-serif, "Font Awesome 5 Pro";
+}
+
+#main-menu .wdes-custom-nav>.panel>a .fa-angle-down {
+  float: left;
+  margin-top: 0;
+}
+
+.wdes-collapse-bg ul li a,
+.btn,
+.whm-sidebar .list-group .list-group-item,
+.tiles .tile .information .title,
+.home-shortcuts li p {
+  font-family: $ar-font;
+}
+
+a.wdes-livechat span {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+div[menuitemname="Recent Support Tickets"] .list-group-item label.label {
+  float: left;
+}
+
+a.wdes-new-account span {
+  margin-right: 0;
+  margin-left: 3px;
+}
+
+.intl-tel-input.allow-dropdown .flag-container,
+.intl-tel-input.separate-dial-code .flag-container {
+  right: 0;
+  left: auto;
+
+  .selected-flag {
+    padding: 0 8px 0 0;
+  }
+}
+
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-2 input,
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-2 input[type=tel],
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-2 input[type=text] {
+  padding-right: 76px;
+  padding-left: 0;
+}
+
+.intl-tel-input .selected-flag .iti-arrow {
+  left: 6px;
+  right: initial;
+}
+
+span.input-group-addon {
+  border-right: 0 !important;
+}
+
+#order-digit .order-summary .wdes-head>h2,
+#order-digit .order-summary .summary-container .total-due-today span,
+#order-digit .panel-addon .panel-body .description-w,
+#order-digit .panel-addon .panel-price {
+  text-align: right;
+}
+
+#order-digit .panel-addon .panel-body .description-w {
+  display: table;
+  width: 100%;
+}
+
+#order-digit .panel-addon .panel-body label {
+  float: right;
+}
+
+#order-digit .panel-addon .panel-add {
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 160px) {
+  li.wdes-language-item {
+    float: left !important;
+  }
+
+  .logo-mob {
+    float: right !important;
+  }
+
+  ul.top-nav {
+    padding: 0 !important;
+  }
+
+  form.header-search-frame .home-kb-search i {
+    margin-right: 0 !important;
+  }
+
+  form.header-search-frame .form-control {
+    padding: 0 27px 0 0 !important;
+  }
+
+  section#header .choose-language {
+    margin-left: 0 !important;
+    margin-right: 12px !important;
+  }
+}

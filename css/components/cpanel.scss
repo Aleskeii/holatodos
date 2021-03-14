@@ -1,0 +1,195 @@
+#tabOverview {
+
+  .panel.panel-default {
+    border: 0;
+  }
+
+  .panel-default>.panel-heading {
+    padding: 15px;
+    border-bottom: 0;
+  }
+
+  .panel-body {
+    padding: 30px 20px;
+  }
+
+  .cpanel-feature-row img {
+    display: block;
+    margin: 0 auto 15px auto;
+  }
+
+  .cpanel-package-details {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    &:before {
+      content: "\f466";
+      font-family: "Font Awesome 5 Pro";
+      font-weight: 300;
+      color: #3879d9;
+      font-size: 57px;
+      display: block;
+      width: 100%;
+      margin-bottom: 6px;
+    }
+
+    em,
+    h4 {
+      font-family: Montserrat, sans-serif;
+      font-size: 19px;
+      font-style: normal;
+      line-height: 28px;
+    }
+
+    em {
+      &:after {
+        content: '-';
+        margin: 0 5px;
+      }
+    }
+
+    >a {
+      display: block;
+      width: 100%;
+      font-size: 15px;
+      margin-top: 5px;
+      text-decoration: none;
+
+      &:focus {
+        color: var(--main-gradient-color);
+      }
+    }
+  }
+
+  #cPanelPackagePanel {
+    p a {
+      background-color: #3879d9;
+      border: 0 !important;
+      color: #fff !important;
+      font-family: Montserrat, sans-serif;
+      font-size: 15px;
+      padding: 8px 25px;
+      margin-top: 16px;
+      border-radius: 2px;
+      transition: all .3s;
+      text-decoration: none;
+
+      &:hover {
+        background-color: var(--main-gradient-color);
+      }
+    }
+  }
+
+  #cPanelUsagePanel {
+
+    #diskUsage,
+    #bandwidthUsage {
+      font-size: 14px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+
+      >strong {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+      }
+    }
+
+    .text-info {
+      color: #3879d9;
+      font-size: 15px !important;
+      margin: 14px 0 0 !important;
+    }
+  }
+
+  #cPanelExtrasPurchasePanel {
+    form.form-inline {
+      display: flex;
+
+      .form-control {
+        height: initial !important;
+        padding: 10px 15px !important;
+        margin-right: 15px;
+        width: 50% !important;
+
+        &:focus {
+          outline: none;
+          box-shadow: none;
+        }
+      }
+
+      .btn {
+        width: 50%;
+        background-color: #3879d9;
+        color: #fff !important;
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        border: 0 !important;
+      }
+    }
+  }
+
+  .cpanel-feature-row {
+    margin: 0;
+
+    div {
+      margin: 20px 0;
+    }
+
+    a {
+      font-size: 14px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      transition: all .3s;
+
+      &:hover {
+        color: #3879d9;
+        text-decoration: none;
+      }
+    }
+  }
+
+  #cPanelBillingOverviewPanel,
+  #cPanelConfigurableOptionsPanel {
+    .panel-body {
+      font-size: 15px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+
+      .row {
+        margin-bottom: 15px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  #cPanelQuickEmailPanel {
+    .form-control {
+      height: initial !important;
+      padding: 10px 15px !important;
+
+      &:focus {
+        outline: none;
+        box-shadow: none;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 160px) and (max-width: 1500px) {
+  #tabOverview #cPanelExtrasPurchasePanel form.form-inline {
+    flex-wrap: wrap;
+  }
+
+  #tabOverview #cPanelExtrasPurchasePanel form.form-inline .btn,
+  #tabOverview #cPanelExtrasPurchasePanel form.form-inline .form-control {
+    width: 100% !important;
+    margin: 5px 0;
+  }
+}

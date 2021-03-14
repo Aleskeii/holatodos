@@ -1,0 +1,12 @@
+# Digit - Responsive WHMCS Client Area Template Configuration File
+
+name: "Digit"
+description: "Responsive WHMCS Client Area Template"
+author: "WHMCSdes"
+version: "8.1.1"
+properties:
+  serverSidePagination: false # Defines client side will handle pagination
+provides:
+  bootstrap: 3.4.1
+  jquery: 1.12.4
+  fontawesome: 5.10.1
